@@ -1,0 +1,16 @@
+
+
+1. add functionality of handling existing flashcard for add_flashcard, upload_deck,add_deck
+2. add funtionality to add flashcard instead for update function if the flashcard does not exist 
+3. add functionality to retrive a flashcard given the question
+4. maybe add a quiz option where you can have mcqs
+5. each question can have many answers i.e a value part can be a list.
+6. add validation function to validate the question.
+7. maybe make the ui look better
+8. persistant storage
+9. multiple accounts
+
+
+@pytest.fixture
+def deck():
+    return FlashcardDeck()
